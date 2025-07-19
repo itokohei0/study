@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="5">
   <diagram name="述語論理におけるRDB" id="Iz5RUi_Bo08HJdJQzqZg">
     <mxGraphModel dx="1079" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,6 +247,136 @@
         </mxCell>
         <mxCell id="wWFW9N-7El1gfp7g4964-31" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;2階&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;DB(テーブルの集合)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wWFW9N-7El1gfp7g4964-32">
           <mxGeometry y="93.5483870967742" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hjbx1KIwOycRxM71wQFs" name="歯抜けのデータ">
+    <mxGraphModel dx="1364" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-1" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;1, 2, 3, 4, 5, 6, 7, 8&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;align=left;spacingLeft=70;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-2" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;1, 2, 3, 5, 6, 8&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;align=left;spacingLeft=70;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="181" y="354" as="sourcePoint" />
+            <mxPoint x="181" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="216" y="353" as="sourcePoint" />
+            <mxPoint x="216" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="251" y="353" as="sourcePoint" />
+            <mxPoint x="251" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="286" y="352" as="sourcePoint" />
+            <mxPoint x="286" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="351" as="sourcePoint" />
+            <mxPoint x="323" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="358" y="350" as="sourcePoint" />
+            <mxPoint x="358" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-10" value="余ってしまう" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.57;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;flipV=1;position2=0.29;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="370" y="143" width="151" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-11" value="集合A&amp;nbsp; &amp;nbsp;MAX(seq)&lt;div&gt;(自然数の集合)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="93" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvUDDEv5BINU0VuZ0OHU-12" value="集合B&amp;nbsp; &amp;nbsp;COUNT(*)&lt;div&gt;(SeqTblの集合)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="345" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U7vMPCoCWzIwqTL9Lmrg" name="Studentsテーブルのイメージ">
+    <mxGraphModel dx="2383" dy="2379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-2" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;Studentsテーブル&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="-10" width="1530" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-413" y="90" width="340" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-7" value="" style="group" vertex="1" connectable="0" parent="xzGS9KixrFfA0DGqs3VR-6">
+          <mxGeometry x="10" width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-2" value="S1: 理学部" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=45;strokeWidth=5;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-7">
+          <mxGeometry width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-3" value="2018-10-10&lt;div&gt;2018-09-22&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-7">
+          <mxGeometry x="65" y="61.25" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-1" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(*)＝2&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(sbmt_date)=2&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xzGS9KixrFfA0DGqs3VR-6">
+          <mxGeometry y="220" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-50" y="90" width="340" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-8" value="" style="group" vertex="1" connectable="0" parent="xzGS9KixrFfA0DGqs3VR-7">
+          <mxGeometry x="10" width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-9" value="S2: 文学部" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=45;strokeWidth=5;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-8">
+          <mxGeometry width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-10" value="NULL&lt;div&gt;2018-09-10&lt;/div&gt;&lt;div&gt;2018-09-22&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-8">
+          <mxGeometry x="65" y="41.25" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-3" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(*)＝3&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(sbmt_date)=2&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xzGS9KixrFfA0DGqs3VR-7">
+          <mxGeometry y="220" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="90" width="340" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-11" value="" style="group" vertex="1" connectable="0" parent="xzGS9KixrFfA0DGqs3VR-8">
+          <mxGeometry x="10" width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-12" value="S3: 工学部" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=45;strokeWidth=5;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-11">
+          <mxGeometry width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-13" value="NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-11">
+          <mxGeometry x="105" y="81.25" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-4" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(*)＝1&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(sbmt_date)=0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xzGS9KixrFfA0DGqs3VR-8">
+          <mxGeometry y="220" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="90" width="340" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-14" value="" style="group" vertex="1" connectable="0" parent="xzGS9KixrFfA0DGqs3VR-9">
+          <mxGeometry x="10" width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-15" value="S4: 経済学部" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=45;strokeWidth=5;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-14">
+          <mxGeometry width="320" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I-s6WhcJgMj7twH4OXOs-16" value="2018-09-25" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;" vertex="1" parent="I-s6WhcJgMj7twH4OXOs-14">
+          <mxGeometry x="65" y="81.25" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xzGS9KixrFfA0DGqs3VR-5" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(*)＝1&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;COUNT(sbmt_date)=1&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xzGS9KixrFfA0DGqs3VR-9">
+          <mxGeometry y="220" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
